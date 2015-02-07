@@ -1,0 +1,53 @@
+#vis {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+.status-text {
+  position: absolute;
+  top: 80px;
+  right: 80px; }
+
+#status {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-weight: 300; }
+
+#bubble-background {
+  fill: none;
+  pointer-events: all; }
+
+.bubble-node {
+  /* fill: #d1e0f3; */
+  fill: rgba(50, 153, 187, 0.5); }
+
+.bubble-hover {
+  /* fill: #b8c7d9; */
+  fill: rgba(100, 185, 214, 0.4); }
+
+.bubble-selected {
+  /* fill: #a8c8ee;  */
+  fill: #3299bb;
+  stroke: #FFF;
+  stroke-width: 1.5px; }
+
+.active {
+  color: #A6BA92; }
+
+a.bubble-label {
+  font-family: 'Open Sans', san-serif;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute; }
+
+.bubble-label .bubble-label-value {
+  font: 0px sans-serif;
+  white-space: nowrap; }
+
+/*# sourceMappingURL=bubble.css.map */
